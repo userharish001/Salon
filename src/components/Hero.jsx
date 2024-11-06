@@ -7,26 +7,25 @@ import Footer from "./Footer"
 
 const Home = () => {
   return (
-    <div className="p-1 m-1">
+   <div>
+     <div className="p-1 m-3">
       {/* Hero Section */}
-      <div
+      <div className="mt-5 rounded-3"
         style={{
           backgroundImage: `url(${barber})`,
           height: "60vh",
           backgroundSize: "cover",
           backgroundPosition: "center",
           color: "white",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          textAlign: "center",
         }}
       >
-        <h1>Welcome to Newon Unisex Hair Salon</h1>
-        <p>Your beauty, our passion.</p>
-        <Button variant="primary" href="/services">
+        <h1 className="text-center">Welcome to Newon Unisex Hair Salon</h1>
+        <p className="text-center">Your beauty, our passion.</p>
+       <div className="text-center mt-3">
+       <Button variant="primary" href="#service1">
           Explore Our Services
         </Button>
+       </div>
       </div>
 
       {/* Introduction Section */}
@@ -151,10 +150,11 @@ const Home = () => {
           Book Your Appointment
         </Button>
       </div>
+    </div>
       <About/>
       <Services/>
       <Footer/>
-    </div>
+   </div>
   );
 };
 

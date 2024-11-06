@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className="bg-black text-white">
+      <div className="bg-black text-white p-3">
         <div class="box">
           <div class="logo">Hair Salon</div>
           <div class="bf-text">We beleive in quality not quantity </div>
@@ -43,10 +43,10 @@ const Footer = () => {
 
           <div className="bf-text">Follow Us</div>
           <div className="icons">
-            <Link to="#" className="fa-brands fa-facebook-f"></Link>
-            <Link to="#" className="fa-brands fa-google"></Link>
-            <Link to="#" className="fa-brands fa-instagram"></Link>
-            <Link to="#" className="fa-brands fa-youtube"></Link>
+            <Link to="https://www.facebook.com" className="fa-brands fa-facebook-f text-decoration-none"></Link>
+            <Link to="https://www.google.com" className="fa-brands fa-google text-decoration-none"></Link>
+            <Link to="https://www.instagram.com" className="fa-brands fa-instagram text-decoration-none"></Link>
+            <Link to="https://www.youtube.com" className="fa-brands fa-youtube text-decoration-none"></Link>
           </div>
         </div>
 

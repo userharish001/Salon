@@ -11,7 +11,7 @@ const Contact = () => {
     navigate('/contact');
   }
   return (
-    <>
+    <div className="mt-5 p-2">
       <section className="contact-section">
         <div className="contact-intro">
           <h2 className="contact-title">For Book Appointment </h2>
@@ -134,7 +134,7 @@ const Contact = () => {
   />
 </div>
       </section>
-    </>
+    </div>
   );
 };
 

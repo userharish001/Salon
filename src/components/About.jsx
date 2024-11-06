@@ -61,7 +61,7 @@ const About = () => {
         <Col md={12} className="text-center">
           <h2>Come Visit Us!</h2>
           <p>We’d love to meet you and help you look and feel fabulous. Book your appointment today, and let’s create something beautiful together.</p>
-          <Button variant="primary">Book Now</Button>
+          <Button variant="primary" href="/contact">Book Now</Button>
         </Col>
       </Row>
     </Container>
